@@ -1,0 +1,510 @@
+
+.container {
+    max-width: 100%;
+    background-color: #445162;
+    padding: 50px 50px;    
+}
+.main__header-top{
+display: flex;
+justify-content: space-between;
+}
+
+.header__title {
+    font-size: 60px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    font-weight: 200;
+    padding-bottom: 28px;
+    
+}
+
+.header__squar {
+    background-color: rgb(255, 255, 255);
+    left: 761px;
+    top: 50px;
+    width: 469px;
+    height: 214px;
+}
+
+.header__text{
+    font-size: 20px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    line-height: 1.8;
+    font-weight: 200;
+    list-style: none;
+    
+}
+
+.header__text li::before{
+    content: url(/images/checkIcon.png);
+    margin-right: 10px;
+}
+
+.product__container {
+    max-width: 100%;
+    padding: 50px 50px 50px 50px;
+    background-color: #fff;
+}
+.product__block {
+    display: flex;
+    justify-content: space-between;
+}
+.product__title {
+    font-size: 30px;
+    font-family: "Arial";
+    color: rgb(68, 81, 97);
+    line-height: 1.2;
+    font-weight: 100;
+    padding-bottom: 40px;
+}
+.product__square {
+    width: 430px;
+    height: 245px;
+    background-color: rgb(68, 81, 97);
+}
+
+.product__text{
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb(51, 51, 51);
+    line-height: 1.5;
+    width: 680px;
+    padding-bottom: 20px;
+}
+
+.dignity__container {
+    max-width: 100%;
+    padding: 50px 50px;
+    background-color: #f5f5f5;
+}
+
+.dignity__title {
+display: flex;
+justify-content: center;
+font-size: 30px;
+font-family: "Arial";
+color: rgb(68, 81, 97);
+line-height: 1.2;
+font-weight: 100;
+padding-bottom: 30px;
+
+}
+.dignity__text {
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb(51, 51, 51);
+    line-height: 1.5;
+    list-style: none;
+    width: 550px;
+}
+
+.dignity__block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dignity__content--box{
+    display: flex;
+    gap: 15px;
+}
+
+.dignity__img--block{
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+}
+
+.dignity__text--block{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+
+}
+
+
+.skrinshots__container {
+    max-width: 100%;
+    padding: 50px 50px; 
+}
+.skrinshots__title {
+    font-size: 30px;
+    font-family: "Arial";
+    color: rgb(68, 81, 97);
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+    font-weight: 200;
+}
+.titel__paragraph {
+    font-size: 24px;
+    font-family: "Arial";
+    color: rgb(68, 81, 97);
+    line-height: 1.25;
+    
+    font-weight: 200;
+}
+.skrinshot__text {
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb(51, 51, 51);
+    line-height: 1.5;
+    width: 370px;  
+     
+}
+
+
+.skrinshots__box{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.skrinshots__box--content{
+    display: flex;
+    gap: 15px;
+
+}
+
+.skrinshots__square--box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 28px;
+
+}
+
+.skrinshots__text--box{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+}
+
+.skrinshots__square{
+    background-color:#445161;
+    width: 230px;
+    height: 160px;
+   
+}
+
+.reviews__container{
+    max-width: 100%;
+    padding: 50px 50px; 
+    background-color: #f5f5f5;
+}
+
+.reviews__title--flex{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.reviews__title{
+    font-size: 30px;
+    font-family: "Arial";
+    color: rgb(68, 81, 97);
+    line-height: 1.2;
+    font-weight: normal;
+}
+
+.reviews__text{
+    font-size: 14px;
+    font-family: "Arial";
+    color: rgb(51, 51, 51);
+    font-style: italic;
+    line-height: 1.286;
+    width: 450px;
+    
+    list-style: none;
+}
+
+.reviews__text p{
+    margin-top: 5px;
+    color: #b5b4b4;
+}
+
+.reviews__bg--text li{
+    background-color:#ebebeb;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+
+.reviews__bg{
+    background-color:#445161;
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    
+}
+
+.reviews__content--box{
+    display: flex;
+    gap: 25px; 
+}
+
+.reviews__bg--box{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.reviews__box{
+    display: flex;
+    justify-content: space-between;  
+     
+}
+
+.reviews__bg--r{
+    background-color:#445161;
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 75px;
+}
+
+.reviews__text--r{
+    font-size: 14px;
+    font-family: "Arial";
+    color: rgb(51, 51, 51);
+    font-style: italic;
+    line-height: 1.286;
+    width: 450px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    list-style: none;
+    
+}
+
+.reviews__text--r p{
+    margin-top: 5px;
+    color: #b5b4b4;
+}
+
+.buy__container {
+    max-width: 100%;
+    padding: 50px 50px; 
+}
+.buy__conatainer--title {
+    display: flex;
+    justify-content: center;
+}
+.buy__title {
+    font-size: 30px;
+    font-family: "Arial";
+    color: rgb(68, 81, 97);
+    line-height: 1.2;
+    font-weight: normal;
+}
+
+.buy__container--flexbox {
+    display: flex;
+    justify-content:center;
+    align-items: end;
+    gap: 45px;
+    margin-top: 35px;
+}
+.buy__standart {
+    background-color:#445162;
+    width: 300px;
+    height: 306px;
+    border-radius: 10px;
+}
+.buy__premium {
+    width: 300px;
+    height: 404px;
+    background-color:#445162;
+    border-radius: 10px;
+}
+.buy__lux {
+    width: 300px;
+    height: 499px;
+    background-color:#445162;
+    border-radius: 10px;
+}
+
+.buy__subtitle {
+    font-size: 24px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    line-height: 1.25;
+    font-weight: normal;
+
+}
+
+.buy__subtitle--flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.buy__bg {
+    background-color: white;
+    width: 295px;
+    height: 79px;
+}
+
+.buy__bg--flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.buy__bg--subtitle {
+    font-size: 40px;
+    font-family: "Arial";
+    color: rgb(68, 81, 98);
+    line-height: 0.75;
+    font-weight: normal;
+}
+
+.buy__bg--subtitle--flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.buy__button {
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 260px;
+    height: 40px;
+    border: none;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: "Arial";
+    color: rgb(68, 81, 97);
+    font-weight: bold;
+    line-height: 1;
+    transition: 1s;
+}
+.buy__button:hover{
+    background-color:#445162;
+    color: white;
+}
+
+.buy__button--flex{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.buy__text{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    line-height: 1.714;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+.buy__text ul{
+    display: flex;
+    justify-content: center;
+}
+
+.contact__container {
+    max-width: 100%;
+    padding: 50px 50px; 
+    background-color:#445162;
+}
+.contact__flex {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+.contact__title {
+    font-size: 30px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    font-weight: normal;
+}
+.contact__box {
+    display: flex;
+    justify-content: center;
+    gap: 44px;
+}
+.contact__input--box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.contact__input {
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 40px;
+    border: none;
+    padding-left: 10px;
+}
+
+.contact__input--message {
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 170px;
+    border: none;
+    /* padding: ; */
+    padding: 10px;
+}
+.contact__button {
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb(68, 81, 98);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.5;
+    border: none;
+}
+.contact__button--flex{
+    display: flex;
+    justify-content: center;
+}
+.contact__mail--box {
+    display: flex;
+    gap: 8px;
+}
+.contact__a {
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.contact__icon--block{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+}
+
+.contact__social--block{
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
+   
+}
+
+.contact__social--buttons{
+   margin-top: 30px;
+
+}
+  
+
+  
+
+
+  
